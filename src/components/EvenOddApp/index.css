@@ -1,0 +1,45 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  height: 100vh;
+  font-family: Roboto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 900;
+  color: #0f172a;
+}
+
+.num {
+  font-size: 30px;
+  font-weight: 500;
+  color: #334155;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #1e293b;
+  border-style: solid;
+  border-color: #1e293b;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.tag {
+  color: #1e293b;
+}
